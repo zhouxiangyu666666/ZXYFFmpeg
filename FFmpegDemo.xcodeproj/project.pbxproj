@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3F161D631FF3524800E5889B /* libZXYFFmpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F161D4D1FF3510600E5889B /* libZXYFFmpeg.a */; };
 		3F3121831FF23F6C0084F5F8 /* ff.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F3121821FF23F6C0084F5F8 /* ff.jpg */; };
 		3F3121871FF24EED0084F5F8 /* asd.aac in Resources */ = {isa = PBXBuildFile; fileRef = 3F3121851FF24EED0084F5F8 /* asd.aac */; };
+		3FD520181FFB6B2C00305483 /* libZXYFFmpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FD520171FFB6AF300305483 /* libZXYFFmpeg.a */; };
 		3FFAA63C1FDF7CB8003F3BA7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFAA63B1FDF7CB8003F3BA7 /* AppDelegate.m */; };
 		3FFAA63F1FDF7CB8003F3BA7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFAA63E1FDF7CB8003F3BA7 /* ViewController.m */; };
 		3FFAA6421FDF7CB8003F3BA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FFAA6401FDF7CB8003F3BA7 /* Main.storyboard */; };
@@ -33,9 +33,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3F161D4C1FF3510600E5889B /* PBXContainerItemProxy */ = {
+		3FD520161FFB6AF300305483 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 3F161D481FF3510600E5889B /* ZXYFFmpeg.xcodeproj */;
+			containerPortal = 3FD520121FFB6AF300305483 /* ZXYFFmpeg.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 3FB0148F1FDA67AD00B9AD5A;
 			remoteInfo = ZXYFFmpeg;
@@ -57,9 +57,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3F161D481FF3510600E5889B /* ZXYFFmpeg.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ZXYFFmpeg.xcodeproj; path = ../../.Trash/ZXYFFmpeg.xcodeproj; sourceTree = "<group>"; };
 		3F3121821FF23F6C0084F5F8 /* ff.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ff.jpg; sourceTree = "<group>"; };
 		3F3121851FF24EED0084F5F8 /* asd.aac */ = {isa = PBXFileReference; lastKnownFileType = file; path = asd.aac; sourceTree = "<group>"; };
+		3FD520121FFB6AF300305483 /* ZXYFFmpeg.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ZXYFFmpeg.xcodeproj; path = ZXYFFmpeg/ZXYFFmpeg.xcodeproj; sourceTree = "<group>"; };
 		3FFAA6371FDF7CB8003F3BA7 /* FFmpegDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FFmpegDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FFAA63A1FDF7CB8003F3BA7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3FFAA63B1FDF7CB8003F3BA7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -208,7 +208,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F161D631FF3524800E5889B /* libZXYFFmpeg.a in Frameworks */,
+				3FD520181FFB6B2C00305483 /* libZXYFFmpeg.a in Frameworks */,
 				3FFAA72D1FDFA99A003F3BA7 /* CoreMedia.framework in Frameworks */,
 				3FFAA7361FDFD7CF003F3BA7 /* VideoToolbox.framework in Frameworks */,
 				3FFAA72B1FDFA98A003F3BA7 /* libiconv.2.4.0.tbd in Frameworks */,
@@ -241,10 +241,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3F161D491FF3510600E5889B /* Products */ = {
+		3FD520131FFB6AF300305483 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3F161D4D1FF3510600E5889B /* libZXYFFmpeg.a */,
+				3FD520171FFB6AF300305483 /* libZXYFFmpeg.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -319,7 +319,7 @@
 				3FFAA72A1FDFA98A003F3BA7 /* libiconv.2.4.0.tbd */,
 				3FFAA7281FDFA977003F3BA7 /* libbz2.1.0.tbd */,
 				3FFAA7261FDFA958003F3BA7 /* libz.1.2.5.tbd */,
-				3F161D481FF3510600E5889B /* ZXYFFmpeg.xcodeproj */,
+				3FD520121FFB6AF300305483 /* ZXYFFmpeg.xcodeproj */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -613,8 +613,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 3F161D491FF3510600E5889B /* Products */;
-					ProjectRef = 3F161D481FF3510600E5889B /* ZXYFFmpeg.xcodeproj */;
+					ProductGroup = 3FD520131FFB6AF300305483 /* Products */;
+					ProjectRef = 3FD520121FFB6AF300305483 /* ZXYFFmpeg.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -627,11 +627,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		3F161D4D1FF3510600E5889B /* libZXYFFmpeg.a */ = {
+		3FD520171FFB6AF300305483 /* libZXYFFmpeg.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libZXYFFmpeg.a;
-			remoteRef = 3F161D4C1FF3510600E5889B /* PBXContainerItemProxy */;
+			remoteRef = 3FD520161FFB6AF300305483 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
